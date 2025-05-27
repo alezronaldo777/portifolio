@@ -213,4 +213,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 2000);
         }, 1500);
     });
+
+
+ const aumentaFonteBotao = document.getElementById('aumentar-fonte');  
+  const diminuiFonteBotao = document.getElementById('diminuir-fonte'); 
+let tamanhoAtu
 });
