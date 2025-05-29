@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
     document.getElementById('year').textContent = new Date().getFullYear();
 
     const hamburger = document.querySelector('.hamburger');
